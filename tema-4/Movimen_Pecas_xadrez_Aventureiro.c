@@ -3,7 +3,7 @@
 
 int main() {
 
-    int escolhaPeça;
+    int escolhaPeca;
 
     printf("\n  A   B  C  D  E  F  G  H");
     printf("\n1 ⬜ ⬛ ⬜ ⬛ ⬜ ⬛ ⬜ ⬛");
@@ -21,10 +21,10 @@ int main() {
     printf("\n 3 - Rainha");
     printf("\n 4 - Cavalo");
     printf("\nEscolha a peça que voce deseja mover:");
-    scanf("\n%d", &escolhaPeça);
+    scanf("%d", &escolhaPeca);
     
 
-    switch (escolhaPeça)
+    switch (escolhaPeca)
     {
 
     case 1:
@@ -50,7 +50,7 @@ int main() {
             printf("\n7 ⬜ ⬛ ♝  ⬛ ⬜ ⬛ ⬜ ⬛");
             printf("\n8 ♜  ⬜ ⬛ ⬜ ⬛ ⬜ ⬛ ⬜");
 
-        break;
+    break;
 
 
     case 2:
@@ -149,14 +149,15 @@ int main() {
         }
 
         printf("\n%s", curta);
-        printf("\no tabuleirinho não vai comparecer no cavalo, pois eu teria que colocar um tabuleiro diferente em cada posição");
+        printf("\no tabuleirinho não vai comparecer, pois eu teria que colocar um tabuleiro diferente em cada posição");
         break;
 
 
     
     default:
         printf("Opção invalida");
-        break;
+    break;
+    
     }
 
 

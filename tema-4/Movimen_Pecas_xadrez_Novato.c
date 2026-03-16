@@ -3,8 +3,7 @@
 
 int main() {
 
-    int torre, bispo, rainha;
-    int escolhaPeça;
+    int escolhaPeca;
 
     printf("\n  A   B  C  D  E  F  G  H");
     printf("\n1 ⬜ ⬛ ⬜ ⬛ ⬜ ⬛ ⬜ ⬛");
@@ -21,10 +20,10 @@ int main() {
     printf("\n 2 - Bispo");
     printf("\n 3 - Rainha");
     printf("\nEscolha a peça que voce deseja mover:");
-    scanf("\n%d", &escolhaPeça);
+    scanf("%d", &escolhaPeca);
     
 
-    switch (escolhaPeça)
+    switch (escolhaPeca)
     {
 
     case 1:
@@ -48,7 +47,7 @@ int main() {
             printf("\n7 ⬜ ⬛ ♝  ⬛ ⬜ ⬛ ⬜ ⬛");
             printf("\n8 ♜  ⬜ ⬛ ⬜ ⬛ ⬜ ⬛ ⬜");
 
-        break;
+    break;
 
 
     case 2:
@@ -75,7 +74,7 @@ int main() {
             printf("\n8 ♜  ⬜ ⬛ ⬜ ⬛ ⬜ ⬛ ⬜");
 
 
-        break;
+    break;
     
 
     case 3:
@@ -107,37 +106,8 @@ int main() {
 
     default:
         printf("Opção invalida");
-        break;
+    break;
     }
-
-
-
-
-
-
-
-/*
-
-
-
-    //ATENÇÃO ESSE É "DO WHILE"
-    
-    // int num = 0;
-    // do {
-    //     printf("Digite um número (negativo para sair): \n");
-    //     scanf("%d", &num);
-    // }
-    // while (num >= 0);
-
-
-
-
-
-*/
-
-
-
-
 
 
 

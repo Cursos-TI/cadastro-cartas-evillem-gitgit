@@ -21,7 +21,6 @@ void MoverBispo(int QtdCasas){
 
         contador = 0;
         while (contador < 1)
-
         {
             contador++;
             printf("Direita\n");  
@@ -62,7 +61,6 @@ void MoverCavalo(){
 
         contador = 0;
         while (contador < 1)
-
         {
             contador++;
             printf("Direita\n");  
@@ -76,7 +74,7 @@ void MoverCavalo(){
 
 int main() {
 
-    int escolhaPeça;
+    int escolhaPeca;
 
     printf("\nVAMOS VER UM POUCO DE XADREZ!");
 
@@ -97,17 +95,17 @@ int main() {
     printf("\n 3 - Rainha");
     printf("\n 4 - Cavalo");
     printf("\nEscolha a peça que voce deseja mover:");
-    scanf("\n%d", &escolhaPeça);
+    scanf("%d", &escolhaPeca);
     
 
-    switch (escolhaPeça)
+    switch (escolhaPeca)
     {
 
     case 1:
     int QtdCasas;
 
     printf("\nDigite a quantidade de casa q deseja mover:");
-    scanf("\n%d", &QtdCasas);
+    scanf("%d", &QtdCasas);
 
 
     printf("\nTorre");
@@ -124,7 +122,7 @@ int main() {
         int QtdCasasBispo;
 
         printf("\nDigite a quantidade de casa q deseja mover:");
-        scanf("\n%d", &QtdCasasBispo);
+        scanf("%d", &QtdCasasBispo);
 
 
         printf("\nBispo");
@@ -138,7 +136,7 @@ int main() {
     case 3:
         int QtdCasasRainha;
         printf("\nDigite a quantidade de casa q deseja mover:");
-        scanf("\n%d", &QtdCasasRainha);
+        scanf("%d", &QtdCasasRainha);
 
 
         printf("\nRainha");
@@ -164,7 +162,8 @@ int main() {
     
     default:
         printf("Opção invalida");
-        break;
+    
+    break;
     }
 
 
